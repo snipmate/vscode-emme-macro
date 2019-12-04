@@ -1,0 +1,25 @@
+{
+    "name": "emme-macro",
+    "displayName": "Emme Macro",
+    "description": "Syntax highlighting for INRO Emme macros",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.40.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "emme",
+            "aliases": ["Emme", "emme"],
+            "extensions": [".mac"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "emme",
+            "scopeName": "source.emme",
+            "path": "./syntaxes/emme.tmLanguage.json"
+        }]
+    }
+}
