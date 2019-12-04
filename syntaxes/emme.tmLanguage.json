@@ -7,7 +7,17 @@
 		},
 		{
 			"include": "#strings"
-		}
+		},
+        {
+            "comment": "Line Comments",
+            "match": "((^~#).*?)$",
+            "captures": {
+                "1" :{
+                    "name": "comment.line.emme"
+                }
+            }
+        }
+
 	],
 	"repository": {
 		"keywords": {
@@ -20,6 +30,17 @@
 			"name": "string.quoted.double.emme",
 			"begin": "\"",
 			"end": "\"",
+			"patterns": [
+				{
+					"name": "constant.character.escape.emme",
+					"match": "\\\\."
+				}
+			]
+		},
+		"comments": {
+			"name": "comment.emme",
+			"begin": "~#",
+			"end": "\n",
 			"patterns": [
 				{
 					"name": "constant.character.escape.emme",
