@@ -36,6 +36,15 @@
             }
         },
         {
+            "comment": "Variable queries",
+            "match": "(\\br[0-9]*\\b|\\bt[0-9]\\b)",
+            "captures": {
+                "1" :{
+                    "name": "variable.name.emme"
+                }
+            }
+        },
+        {
             "comment": "Variable declarations",
             "match": "(~r[0-9]*\\b|~t[0-9]\\b|~[xyz]\\b)",
             "captures": {
