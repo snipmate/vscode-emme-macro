@@ -25,6 +25,24 @@
                     "name": "string.unquoted.emme"
                 }
             }
+        },
+        {
+            "comment": "%-enclosed replacement variables",
+            "match": "(%r[0-9]*%|%t[0-9]%|%[0-9]%|%x%|%y%|%z%)",
+            "captures": {
+                "1" :{
+                    "name": "variable.name.emme"
+                }
+            }
+        },
+        {
+            "comment": "Variable declarations",
+            "match": "(\\br[0-9]*\\b|\\bt[0-9]\\b)",
+            "captures": {
+                "1" :{
+                    "name": "variable.name.emme"
+                }
+            }
         }
 
 	],
@@ -32,7 +50,7 @@
 		"keywords": {
 			"patterns": [{
 				"name": "keyword.control.emme",
-				"match": "(~\\+|~\\?|~\\$\\w+|~:\\w+|~\\!|^batchin|^batchout)"
+				"match": "(~\\+|~\\?|~\\$\\w+|~:\\w+|~\\!|^batchin|^batchout|~)"
 			}]
 		},
 		"strings": {
