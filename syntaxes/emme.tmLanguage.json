@@ -30,23 +30,13 @@
 			"name": "string.quoted.double.emme",
 			"begin": "\"",
 			"end": "\"",
-			"patterns": [
-				{
-					"name": "constant.character.escape.emme",
-					"match": "\\\\."
-				}
-			]
+			"patterns": []
 		},
 		"comments": {
 			"name": "comment.emme",
 			"begin": "~#",
 			"end": "\n",
-			"patterns": [
-				{
-					"name": "constant.character.escape.emme",
-					"match": "\\\\."
-				}
-			]
+			"patterns": []
 		}
 	},
 	"scopeName": "source.emme"
