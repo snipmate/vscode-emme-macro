@@ -37,7 +37,7 @@
         },
         {
             "comment": "Variable declarations",
-            "match": "(\\br[0-9]*\\b|\\bt[0-9]\\b)",
+            "match": "(~r[0-9]*\\b|~t[0-9]\\b|~[xyz]\\b)",
             "captures": {
                 "1" :{
                     "name": "variable.name.emme"
@@ -50,7 +50,7 @@
 		"keywords": {
 			"patterns": [{
 				"name": "keyword.control.emme",
-				"match": "(~\\+|~\\?|~\\$\\w+|~:\\w+|~\\!|^batchin|^batchout|~)"
+				"match": "(~\\+|~\\?|~\\$\\w+|~:\\w+|~\\!|^batchin|^batchout)"
 			}]
 		},
 		"strings": {
