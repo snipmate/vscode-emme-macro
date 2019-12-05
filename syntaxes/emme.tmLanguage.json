@@ -32,7 +32,7 @@
 		"keywords": {
 			"patterns": [{
 				"name": "keyword.control.emme",
-				"match": "(~\\+|~\\?|~\\$|~\\!|^batchin|^batchout)"
+				"match": "(~\\+|~\\?|~\\$\\w+|~:\\w+|~\\!|^batchin|^batchout)"
 			}]
 		},
 		"strings": {
