@@ -16,6 +16,15 @@
                     "name": "comment.line.emme"
                 }
             }
+        },
+        {
+            "comment": "Output strings",
+            "match": "((^~/).*?)$",
+            "captures": {
+                "1" :{
+                    "name": "string.unquoted.emme"
+                }
+            }
         }
 
 	],
