@@ -9,11 +9,20 @@
 			"include": "#strings"
 		},
         {
-            "comment": "Line Comments",
+            "comment": "Line comments",
             "match": "((^~#).*?)$",
             "captures": {
                 "1" :{
                     "name": "comment.line.emme"
+                }
+            }
+        },
+        {
+            "comment": "Inline comments",
+            "match": "('.*?)$",
+            "captures": {
+                "1" :{
+                    "name": "comment.emme"
                 }
             }
         },
