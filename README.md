@@ -11,3 +11,7 @@ This extension provides basic language support and syntax highlighting for INRO 
 
 This extension is licensed under the [MIT License](LICENSE.txt).
 
+## Contributing
+
+Contributions to the code are welcome. Please see the [code repository](https://github.com/snipmate/vscode-emme-macro).
+
