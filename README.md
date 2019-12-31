@@ -1,9 +1,13 @@
-# emme-macro README
+# Emme macro language support for Visual Studio Code
 
-Basic language support and syntax highlighting for INRO Emme macro code.
+This extension provides basic language support and syntax highlighting for INRO Emme macro code.
 
-## Releases
+## Features
 
-### 0.1
+ * Syntax highlighting
+ * Auto-toggling of line comments.
 
-Initial release.
+## Licence
+
+This extension is licensed under the [MIT License](LICENSE.txt).
+
