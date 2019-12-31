@@ -7,7 +7,7 @@ This extension provides basic language support and syntax highlighting for [INRO
  * Syntax highlighting
  * Auto-toggling of line comments
 
-The extension associates filenames ending `.mac` with the Emme macro langauge. Other filename extensions can be supported using the `files.associations` setting.
+The extension associates filenames ending `.mac` with the Emme macro langauge. Other filename extensions can be supported using the [`files.associations`](https://code.visualstudio.com/docs/languages/overview) setting.
 
 ## Licence
 
