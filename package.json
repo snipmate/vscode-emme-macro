@@ -3,12 +3,18 @@
     "displayName": "Emme Macro",
     "description": "Syntax highlighting for INRO Emme macros",
     "version": "0.0.1",
+    "publisher": "snipmate",
     "engines": {
         "vscode": "^1.40.0"
     },
+    "license": "SEE LICENSE IN LICENCE.txt",
     "categories": [
         "Programming Languages"
     ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/snipmate/vscode-emme-macro.git"
+    },
     "contributes": {
         "languages": [{
             "id": "emme",
