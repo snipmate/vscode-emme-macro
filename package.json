@@ -15,6 +15,8 @@
         "type": "git",
         "url": "https://github.com/snipmate/vscode-emme-macro.git"
     },
+    "homepage": "https://github.com/snipmate/vscode-emme-macro/blob/master/README.md",
+    "bugs": "https://github.com/snipmate/vscode-emme-macro/issues",
     "contributes": {
         "languages": [{
             "id": "emme",
