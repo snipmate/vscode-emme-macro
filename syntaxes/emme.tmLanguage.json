@@ -68,7 +68,7 @@
 		"keywords": {
 			"patterns": [{
 				"name": "keyword.control.emme",
-				"match": "(~\\+|~\\?|~\\$\\w+|~:\\w+|~\\!|\\bbatchin\\b|\\bbatchout\\b)"
+				"match": "(~\\+|~\\?|~\\$\\w+|~:\\w+|~\\!|\\bbatchin\\b|\\bbatchout\\b|\\breports\\b)"
 			}]
 		},
 		"strings": {
