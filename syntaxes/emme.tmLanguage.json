@@ -19,7 +19,7 @@
         },
         {
             "comment": "Inline comments",
-            "match": "('.*?)$",
+            "match": "\\s('.*?)$",
             "captures": {
                 "1" :{
                     "name": "comment.emme"
