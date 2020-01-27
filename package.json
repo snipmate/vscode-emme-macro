@@ -2,7 +2,7 @@
     "name": "emme-macro",
     "displayName": "Emme Macro",
     "description": "Syntax highlighting for INRO Emme macros",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "publisher": "snipmate",
     "engines": {
         "vscode": "^1.40.0"
